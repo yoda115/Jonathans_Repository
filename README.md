@@ -4,4 +4,4 @@
 <a href="Lab 1/index.html"> Lab 1 - Hello World!</a><br>
 <a href="Lab 2/index.html"> Lab 2 - Coffee Website</a><br>
 <a href="Lab 3/index.html"> Lab 3 - Cat Website</a><br>
-<a href="Lab 4/index.html"> Lab 4 - Lab Four</a>
+<a href="Lab 4/index.html"> Lab 4 - Introduction to CSS</a>
