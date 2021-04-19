@@ -6,4 +6,5 @@
 <a href="Lab 3/index.html"> Lab 3 - Cat Website</a><br>
 <a href="Lab 4/index.html"> Lab 4 - Introduction to CSS</a><br>
 <a href="Lab 6/index.html"> Lab 6 - Responsive Design for Tablet and Desktop</a><br>
-<a href="Lab 7/index.html"> Lab 7 - Audio, Video, and Table Site</a>
+<a href="Lab 7/index.html"> Lab 7 - Audio, Video, and Table Site</a><br>
+<a href="Lab 8/index.html"> Lab 8 - jQuery Demo</a>
