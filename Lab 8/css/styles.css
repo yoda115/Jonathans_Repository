@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {
-     background-color: blanchedalmond;
+     background-color: black;
 }
 
 img {
@@ -13,26 +13,28 @@ a {
 }
 
 a:hover {
-    color:whitesmoke;
+    color:crimson;
     text-decoration: none;
 }
 
 /* Mobile Styles */
 
 header {
-    background-color: thistle;
+    background-color: darkred;
     padding: 40px 0;
     text-align: center;
+    
 }
 
 nav {
-     background-color: wheat;
+     background-color: whitesmoke;
      text-align:center;
 }
 
 menu {
     display: none;
 }
+
 
 nav ul {
     padding: 0;
@@ -43,14 +45,24 @@ nav li {
 display: block;
 }
 
+
 nav li a {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid tan;
+    border-top: 1px solid d;
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
 }
+   
+    #menu {
+        display: block;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+
 
 nav ul a :hover {
     background-color: black;
@@ -101,7 +113,7 @@ footer {
     }
 
     section, aside {
-        border: 4px solid turquoise;
+        border: 4px solid black;
         padding: 20px;
         margin: 10px;
 
@@ -115,7 +127,19 @@ footer {
         width: 30%;
     }
 
+ 
+
 /* Desktop Styles */
+
+.button {
+
+    padding: 10px 20px;
+    background-color: darkred;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 125%;
+    text-decoration: none;
+}
 
 @media only screen and (min-width: 1024px) {
     header {
