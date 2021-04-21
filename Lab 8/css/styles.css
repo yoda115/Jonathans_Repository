@@ -49,7 +49,7 @@ display: block;
 nav li a {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid d;
+    border-top: 1px solid;
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
