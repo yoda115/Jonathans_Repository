@@ -1,20 +1,50 @@
 /* Global Styles */
 
 body {
+    color:whitesmoke;
     background-color: black;
 }
 
 img {
-   max-width: 60%;
+   max-width: 30%;
+   display: block;
+   align-items: center;
+}
+
+h1 {
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+.button {
+    
+    border: darkgray;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.slicknav_menu {
+    display: block;
+}
+
+.button:hover {
+    background-color:darkgray
 }
 
 a {
-   color:black;
+   color:whitesmoke;
 }
 
 a:hover {
    color:whitesmoke;
    text-decoration: none;
+}
+
+header {
+    display: block;
 }
 
 /* Mobile Styles */
@@ -29,6 +59,7 @@ header {
 nav {
     background-color: black;
     text-align:center;
+    padding: 10%;
 }
 
 menu {
@@ -65,19 +96,19 @@ nav li a {
 
 
 nav ul a :hover {
-   background-color: black;
+   background-color: darkgray;
 }
 
 main {
-   background-color: whitesmoke;
-   padding: 20px;
-   margin: 10px;
+   background-color: black;
+   text-align:center;
+   border: whitesmoke;
 }
 
 footer {
-   background-color: white;
+   background-color: black;
    text-align: center;
-   padding: 20px 0;
+   padding: 5px 0;
    margin: 10px;
 }
 
@@ -109,7 +140,7 @@ footer {
    }
 
    main {
-       display: flex;
+       text-align: center;
    }
 
    section, aside {
