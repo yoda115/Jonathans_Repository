@@ -6,23 +6,37 @@
         <title>Bonnie "Prince" Billy Fansite</title>
         <link rel="stylesheet" href=normalize.css>
         <link rel="stylesheet" href=css/styles.css>
-        </head>
+        <script src="dist/jquery.slicknav.min.js"></script>
+        
+
+        <script>
+            $(function () {
+                $('#menu').slicknav();
+                $('.slider').bxSlider();
+                $( "#accordion" ).accordion();
+                $("#tabs").tabs();
+            });
+        </script>
+  </head>
         <body>
             <div id="container">
-            <header>
+            <header></header>
                
-                <img src="Images/bonniebaw.jpg" alt="Logo"> 
+               
                 <h1 style="font-size:300%;">Bonnie "Prince" Billy</h1>
-
+        <img src="Images/bonniebaw.jpg" alt="Logo"> 
                 <a class="button" href="index.html">Home</a>
                     <a class="button" href="about.html">About</a>
                     <a class="button" href="photos.html">Photos</a>
                     <a class="button" href="albums.html">Browse Albums</a>
-                    <a class="button" href="reviews.html">Reviews</a>
+                    <a class="button" href="videos.html">Videos</a>
 
                 <br><br>
+                <video controls>
+                    <source src="videos/iseeadarkness.mp4" type="video/mp4"> </video>
+
                 <p>Welcome to my Bonnie "Prince" Billy Fansite, dedicated to the little-known but still highly influential Folk/Alternative Country artist.</p>
-                </header>
+                
                 <nav>
                     
                     </nav>

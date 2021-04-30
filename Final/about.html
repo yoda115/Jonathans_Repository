@@ -6,20 +6,40 @@
         <title>Bonnie "Prince" Billy Fansite</title>
         <link rel="stylesheet" href=normalize.css>
         <link rel="stylesheet" href=css/styles.css>
-        </head>
+        <link rel="stylesheet" href="dist/slicknav.css">
+        <link rel="stylesheet" href="dist/css/lightbox.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="dist/jquery.slicknav.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="js/zenscroll-min.js"></script>
+        <script src="dist/js/lightbox.min.js"></script>
+        <script>
+            $(function () {
+                $('#menu').slicknav();
+                $('.slider').bxSlider();
+                $( "#accordion" ).accordion();
+                $("#tabs").tabs();
+            });
+        </script>
+</head>
         <body>
             <div id="container">
             <header>
                
-                <img src="Images/bonniebaw2.jpg" alt="Logo"> 
+                
                 <h1 style="font-size:300%;">Information</h1>
                 <a class="button" href="index.html">Home</a>
                     <a class="button" href="about.html">About</a>
                     <a class="button" href="photos.html">Photos</a>
                     <a class="button" href="albums.html">Browse Albums</a>
-                    <a class="button" href="reviews.html">Reviews</a>
+                    <a class="button" href="videos.html">Videos</a>
                 </header>
                 <main>
+                    <img src="Images/bonniebaw2.jpg" alt="Logo" class="center">
                 <p>Bonnie "Prince" Billy (real name Joseph Will Oldham) is an American singer-songwriter, known for his "do-it-yourself punk aesthetic and blunt honesty".</p><br>
                 <p>His music has been likened to Americana, country, indie rock, punk, and folk.</p><br>
                 <p>Oldham adopted the 'Bonnie "Prince" Billy' moniker in 1998, drawing inspiration from many different sources:</p>
@@ -27,9 +47,41 @@
                 <p>And I was also thinking about the name Nat King Cole. But it wasn't until later, and this may have been subconscious, that I remembered that Billy the Kid was William Bonney or Billy Bonney".</p>
                 </main>
                 
+                <div id="accordion">
+                    <h3 id="main">Early Life</h3>
+                    <div>
+                      <p>
+                      Farms can now replenish automatically, unlike the original release.
+                      </p>
+                    </div>
+                    <h3>Career</h3>
+                    <div>
+                      <p>
+                      Originally introduced in Age of Empires III and Age of Mythology, players can now zoom in/zoom out of the game world to get a much better layout of the land than they could in the original AOEII.
+                      </p>
+                    </div>
+                    <h3 id="feature1">New Spectator Mode</h3>
+                    <div>
+                      <p>
+                      Spectate other player's battles online for the first time in AOEII.
+                      </p>
+                      <ul>
+
+                      </ul>
+                    </div>
+                    <h3>Critical Reception</h3>
+                    <div>
+                      <p>
+                        The original AI had to cheat to be competitive, while the new AI is advanced enough to not require any cheating. When the old and new AIs were pitted against each other in a test, the new one easily defeated the old one.</p>
                     
+                    </div>
+                  </div>
+              </div>
+
+              <aside id="buyaoe2"></aside>
+
                    
   <br><footer><p>&copy; 2021 Final - Bonnie Prince Billy Fansite</p></footer>
-   </div>
+   
         </body>
 </html>
